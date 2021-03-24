@@ -49,7 +49,7 @@ if(!isDev){
                 loggerAutoUpdaterSuccess.log('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/MilkyW-Launcher-Premium/MilkyWLauncherPremium/releases/download/v${info.version}/milkylauncher-setup-${info.version}.dmg`
+                    info.darwindownload = `https://github.com/MilkyW-Launcher-Premium/MilkyWLauncherPremium/releases/download/v${info.version}/MilkyW.Launcher-setup-${info.version}.dmg`
                     showUpdateUI(info)
                 }
                 
